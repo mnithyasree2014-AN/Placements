@@ -1,0 +1,11 @@
+#Find character in the string for the given index
+
+package Placement;
+
+public class prgm10 {
+
+	public static void main(String[] args) {
+		String str = "Hello World";
+		System.out.println("Character at index 7 = " + str.charAt(7));
+}
+}
