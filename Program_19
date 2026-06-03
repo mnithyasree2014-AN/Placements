@@ -1,0 +1,15 @@
+#Print the message by creating the object for a class
+
+package Placement;
+
+public class prgm19 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		prgm19 obj = new prgm19();
+		obj.printMessage();
+	}
+	public void printMessage() {
+		System.out.println("Hello java");
+	}
+}
