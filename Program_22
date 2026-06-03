@@ -1,0 +1,12 @@
+#Default constructor
+
+package Placement;
+
+public class prgm22 {
+prgm22(){
+	System.out.println("Default constructor");
+}
+	public static void main(String[] args) {
+prgm22 hello=new prgm22();
+}
+}
