@@ -1,0 +1,28 @@
+#By creating the object print the given mark and calculate the total mark
+
+package Placement;
+
+public class prgm20 {
+
+    public void displayMarks() {
+        int tamil = 85;
+        int english = 78;
+        int maths = 92;
+        int science = 88;
+        int social = 80;
+
+        int total = tamil + english + maths + science + social;
+
+        System.out.println("Tamil : " + tamil);
+        System.out.println("English : " + english);
+        System.out.println("Maths : " + maths);
+        System.out.println("Science : " + science);
+        System.out.println("Social : " + social);
+        System.out.println("Total Marks : " + total);
+    }
+
+    public static void main(String[] args) {
+        prgm20 obj = new prgm20();
+        obj.displayMarks();
+    }
+}
