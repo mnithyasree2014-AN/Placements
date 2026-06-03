@@ -1,0 +1,12 @@
+#Create a object for a class
+
+package Placement;
+
+public class prgm18 {
+
+    public static void main(String[] args) {
+
+    	prgm18 myobj=new prgm18();
+    	        System.out.println(myobj);
+    	    }
+    	}
