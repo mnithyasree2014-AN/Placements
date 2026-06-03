@@ -1,0 +1,20 @@
+#Static method
+
+package Placement;
+
+public class prgm21 {
+	void simpleDisplay() {
+		System.out.println("Example of Instance Method..");
+	}
+	static void staticDisplay() {
+		System.out.println("Static Method Called.");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		prgm21 obj = new prgm21();
+		staticDisplay();
+
+	}
+
+}
