@@ -1,0 +1,20 @@
+#Print student name and id by creating object for a class and a seperate method.
+
+package Placement;
+
+public class prgm23 {
+    String name;
+    int id;
+    prgm23(String name,int id){
+    	this.name=name;
+    	this.id=id;
+    }
+    void display() {
+    	System.out.println("Student Name:"+name+" and Student Id:"+id);
+    }
+	public static void main(String[] args) {
+		prgm23 myObj=new prgm23("Sachin",68);
+		myObj.display();
+	}
+
+}
