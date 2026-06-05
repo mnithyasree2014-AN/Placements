@@ -1,0 +1,22 @@
+#Method overloading
+
+package Placement;
+class MultiplyFun {
+	static int multiply(int a,int b) {
+		return a*b;
+	}
+	static int multiply(int a,int b,int c) {
+		return a*b*c;
+	}
+}
+
+public class prgm32 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(MultiplyFun.multiply(2, 4));
+		System.out.println(MultiplyFun.multiply(2, 7,3));
+
+	}
+
+}
