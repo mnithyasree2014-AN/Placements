@@ -1,0 +1,24 @@
+#Print statement using inheritance
+
+package Placement;
+class Animal{
+	void eat() {
+		System.out.println("eating...");
+	}
+}
+class Dog extends Animal{
+	void bark() {
+		System.out.println("barking...");
+	}
+}
+
+public class prgm_29 {
+
+	public static void main(String[] args) {
+		Dog d = new Dog();
+		d.bark();
+		d.eat();
+
+	}
+
+}
